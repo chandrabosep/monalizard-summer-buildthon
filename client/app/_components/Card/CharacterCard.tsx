@@ -3,10 +3,10 @@ import React from "react";
 
 const CharacterCard = () => {
 	return (
-		<div className="w-[45vw] border my-2 border-black flex rounded-xl overflow-hidden ">
+		<div className="w-[40vw] border my-2 border-black flex rounded-xl overflow-hidden ">
 			<section className="relative w-[48%] flex flex-col items-center overflow-hidden border p-2">
 				<Image
-					src="/quest-hen.png"
+					src="/moon-full.png"
 					alt="hen-quest"
 					width={1024}
 					height={1024}
@@ -23,9 +23,9 @@ const CharacterCard = () => {
 					<h2>Go To Chat</h2>
 				</button>
 			</section>
-			<section className="w-[52%] flex flex-col justify-around items-center py-3 px-2">
-				<div className="h-[70%] flex flex-col justify-around items-center">
-					<h2 className="text-2xl font-semibold">El Pollo loco</h2>
+			<section className="w-[90%] flex flex-col   py-3 px-2">
+				<div className="h-[60%] flex flex-col">
+					<h2 className="text-2xl font-semibold">Moon Boi</h2>
 					<div className="flex justify-between space-x-2">
 						<section className="flex justify-center items-center space-x-2">
 							<Image
@@ -35,7 +35,7 @@ const CharacterCard = () => {
 								height={40}
 								className="w-4 h-4"
 							/>
-							<h2 className="font-semibold text-lg">15 Pieces</h2>
+							<h2 className="font-semibold text-lg">5 Pieces</h2>
 						</section>
 						<section className="flex justify-center items-center space-x-2">
 							<Image
@@ -50,7 +50,7 @@ const CharacterCard = () => {
 							</h2>
 						</section>
 					</div>
-					<section className="flex justify-center items-center space-x-1">
+					<section className="flex items-center space-x-1">
 						<Image
 							src="/bounty.svg"
 							alt="chat-pic"

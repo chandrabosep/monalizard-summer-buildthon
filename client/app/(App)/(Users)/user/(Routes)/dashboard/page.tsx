@@ -29,8 +29,33 @@ export default function Dashboard() {
 					<h2>00:05:00</h2>
 				</div>
 			</section>
-			<div className="my-5">
-				<PieceCard />
+			<div className="my-5 flex flex-wrap">
+				{[
+					{
+						image: "/moon-noun/moon-glasses.png",
+						name: "Moon Boi",
+						type: "Glasses",
+					},
+					{
+						image: "/wolf-noun/wolf-head.png",
+						name: "The Wolf",
+						type: "Head",
+					},
+					{
+						image: "/taco-noun/taco-accesory.png",
+						name: "Paco Taco",
+						type: "Accesory",
+					},
+				].map((item, index) => (
+					<>
+						<PieceCard
+							key={index}
+							name={item.name}
+							image={item.image}
+							type={item.type}
+						/>
+					</>
+				))}
 			</div>
 			<Footer />
 		</div>

@@ -20,13 +20,10 @@ export default function Dashboard({ params }: { params: { chatid: string } }) {
 		if (params.chatid === "elpolloloco") {
 			setData({
 				chatTag: "#elpolloloco",
-				name: "Moon Boi",
-				desc: "Introducing Moon Boi, the adventurous and friendly mascot of CrossMint! 🌙🚀 Moon Boi is here to take you on an exciting journey through the world of NFTs, making it easier and more fun than ever to explore and collect digital treasures.",
-				image: "/moon-noun/moon-full.png",
-				pieces: [
-					"/moon-noun/moon-glasses.png",
-					"/moon-noun/moon-head.png",
-				],
+				name: "Unique",
+				desc: "Introducing Unique, the coolest unicorn in the crypto universe! 🌟 Unique is Uniswap's friendly and laid-back mascot who loves to go on rides across rainbows and spread good vibes. This rainbow-loving unicorn is here to add a splash of color and fun to your DeFi adventures.",
+				image: "/uni-noun/uni-full.png",
+				pieces: ["/uni-noun/uni-glasses.png", "/uni-noun/uni-head.png"],
 			});
 		} else {
 			setData({
@@ -62,9 +59,7 @@ export default function Dashboard({ params }: { params: { chatid: string } }) {
 					</h2>
 				</button>
 			</div>
-			<h2>
-				{data && data.desc}
-			</h2>
+			<h2>{data && data.desc}</h2>
 
 			<h2 className="text-2xl font-semibold uppercase px-5 my-5">
 				Pieces

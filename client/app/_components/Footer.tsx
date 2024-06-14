@@ -25,14 +25,17 @@ const Footer = ({ className }: { className?: string }) => {
 		>
 			<div className="flex">
 				<Image
-					src="/footer-logo.webp"
+					src="/footer-logo.svg"
 					alt="footer-logo"
 					width={40}
 					height={40}
 					className="p-1.5"
 				/>
-				<h2 className="font-bold my-auto text-sm">
-					Proudly made by Lizard People for Onchain Summer Buildthon
+				<h2 className="font-bold my-auto text-sm text-[#0252FA]">
+					<span className="text-white">
+						Proudly made by Lizard People for
+					</span>{" "}
+					Onchain Summer Buildthon
 				</h2>
 			</div>
 			<div className="flex">

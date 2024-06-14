@@ -27,7 +27,7 @@ export default function Home() {
 			<LandingNavbar />
 			<main className="mt-7 w-[90%] mx-auto">
 				<div className="bg-[#FFFBF8]/[0.3] border rounded-[50px] h-[63vh] flex backdrop-blur-sm pl-5 pr-7 mt-7 ">
-					<div className="w-[35%] flex justify-center items-center ">
+					<div className="w-[50%] flex justify-center items-center ">
 						<Image
 							src="/hero.jpg"
 							alt="hero"

@@ -18,7 +18,7 @@ export default function Quest() {
 					},
 					{
 						img: "/wolf-noun/wolf-full.png",
-						name: "Moon Glasses",
+						name: "The Wolf",
 						desc: "Introducing The Wolf of All Streets, AAVE's fearless and friendly mascot! 🐺💎 This savvy wolf is here to guide you through the exciting world of decentralized finance (DeFi) on AAVE. Whether you're a seasoned DeFi enthusiast or just starting your journey, The Wolf of All Streets has got your back!",
 						sponsors: "/aave.jpg",
 					},

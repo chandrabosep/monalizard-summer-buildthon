@@ -17,36 +17,15 @@ export default function Dashboard({ params }: { params: { id: string } }) {
 	const quests: {
 		img: string;
 	}[] = [
-		{
-			img: "/c1.jpg",
-		},
-		{
-			img: "/c2.jpg",
-		},
-		{
-			img: "/c3.jpg",
-		},
-		{
-			img: "/c4.jpg",
-		},
-		{
-			img: "/cplane.svg",
-		},
-		{
-			img: "/cplane.svg",
-		},
-		{
-			img: "/cplane.svg",
-		},
-		{
-			img: "/cplane.svg",
-		},
+		{ img: "/wolf-noun/wolf-glasses.png" },
+		{ img: "/wolf-noun/wolf-head.png" },
+		{ img: "/wolf-noun/wolf-accesory.png" },
 	];
 	return (
 		<div className="w-full h-full my-5 overflow-scroll">
 			<div className="flex justify-between my-3">
 				<h1 className="text-4xl font-semibold text-center uppercase">
-					&quot;EL Poco Loco&quot;
+					&quot;The Wolf&quot;
 				</h1>
 				<button className={buttonVariants({})}>
 					<Image
@@ -63,9 +42,11 @@ export default function Dashboard({ params }: { params: { id: string } }) {
 				</button>
 			</div>
 			<h2>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-				Consequatur alias odit voluptate nostrum totam natus eos quasi
-				quisquam accusamus nisi?
+				Introducing The Wolf of All Streets, AAVE's fearless and
+				friendly mascot! 🐺💎 This savvy wolf is here to guide you
+				through the exciting world of decentralized finance (DeFi) on
+				AAVE. Whether you're a seasoned DeFi enthusiast or just starting
+				your journey, The Wolf of All Streets has got your back!
 			</h2>
 
 			<h2 className="text-2xl font-semibold uppercase px-5 my-5">
@@ -74,7 +55,7 @@ export default function Dashboard({ params }: { params: { id: string } }) {
 			<div className="flex justify-around my-10 ">
 				<section className="w-[25%]">
 					<Image
-						src={"/moon-full.png"}
+						src={"/wolf-noun/wolf-full.png"}
 						className="w-full rounded-xl"
 						height={1024}
 						width={1024}

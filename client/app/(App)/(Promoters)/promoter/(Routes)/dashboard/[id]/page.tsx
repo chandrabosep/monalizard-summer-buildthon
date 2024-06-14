@@ -42,11 +42,11 @@ export default function Dashboard({ params }: { params: { id: string } }) {
 				</button>
 			</div>
 			<h2>
-				Introducing The Wolf of All Streets, AAVE's fearless and
+				{`Introducing The Wolf of All Streets, AAVE's fearless and
 				friendly mascot! 🐺💎 This savvy wolf is here to guide you
 				through the exciting world of decentralized finance (DeFi) on
 				AAVE. Whether you're a seasoned DeFi enthusiast or just starting
-				your journey, The Wolf of All Streets has got your back!
+				your journey, The Wolf of All Streets has got your back!`}
 			</h2>
 
 			<h2 className="text-2xl font-semibold uppercase px-5 my-5">

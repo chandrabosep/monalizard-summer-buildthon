@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<MaxWidthWrapper className="flex flex-col items-center py-4 relative overflow-x-hidden">
 			<LandingNavbar />
-			<main className="mt-7 w-[90%] mx-auto">
+			<main className="max-w-screen-xl mt-7 w-[90%] mx-auto">
 				<div className="bg-[#FFFBF8]/[0.3] border rounded-[50px] h-[63vh] flex backdrop-blur-sm pl-5 pr-7 mt-7 ">
 					<div className="w-[50%] flex justify-center items-center ">
 						<Image

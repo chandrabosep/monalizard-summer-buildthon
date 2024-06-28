@@ -83,7 +83,11 @@ const PromoterDashBoard = () => {
 						height={40}
 						className="w-7 h-7 rounded-full"
 					/>
-					<h2 className="text-xl">{data ? data : "Pratham.eth"}</h2>
+					<h2 className="text-xl">
+						{data
+							? data
+							: `${address?.slice(0, 6)}...${address?.slice(-4)}`}
+					</h2>
 				</section>
 				<section>
 					{menu.map((item) => (

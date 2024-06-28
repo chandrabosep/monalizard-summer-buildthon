@@ -6,7 +6,7 @@ const CharacterCard = () => {
 		<div className="w-fit border my-2 border-black flex rounded-xl overflow-hidden ">
 			<section className="relative w-fit flex flex-col items-center overflow-hidden border-r p-2">
 				<Image
-					src="/moon-full.png"
+					src="/moon-noun/moon-full.png"
 					alt="hen-quest"
 					width={1024}
 					height={1024}
